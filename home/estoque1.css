@@ -1,0 +1,363 @@
+
+    @font-face {
+  font-family: "gotam";
+  src: url("fontes/Gotham-Black.otf");
+ 
+}
+    
+     .body{
+                background: linear-gradient(341deg, black, #2034a5);
+    color: white;    
+    
+    }
+    
+    .titulo{
+        margin-top: 2%;
+        margin-bottom: 3%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    
+    
+   
+    .filtro{
+        /*margin-top: 3%;*/
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centralizar{
+       text-align: center;
+    }
+    
+    .campos{
+      font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    }
+    
+    .campos_data{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    
+    .conteudo_info{
+       text-align: center;
+    display: flex;
+    justify-content: center; 
+    }
+    
+    .quadro_info{
+             height: 491px;
+    border-radius: 20px;
+    margin-top: 3%;
+    width: 400px;
+    background: linear-gradient(180deg, black, #352f2f);
+}
+ .tudo{
+      /*display: flex;*/
+       width: 100%;
+        height: 100vh; 
+         display: flex;
+     background: linear-gradient(341deg, black, #df1717);
+        /* position: fixed;*/
+    }
+    
+    .col1{
+            margin-left: 3%;
+        text-align: center;
+        width: 80%;
+        height: 100vh;
+    }
+    
+    .conteudo_tabela{
+        justify-content: center;
+    display: flex;
+    }
+    
+    .grid_container{
+       overflow-y: auto !important;
+       height: 55% !important;
+       width: 100%;
+    margin: 0 auto; 
+    }
+    
+    .col2{
+          margin-top: 2%;
+       width: 20%;
+        height: 100vh;
+        text-align: center;
+    }
+    .fundo_preto {
+    background-color: #000000 !important;
+}
+    
+    .btn_imprimir{
+       
+       color: white;
+    border-radius: 20px;
+    width: 100px;
+    background: linear-gradient(360deg, #8b8686, #1a1a1a);  
+    }
+    .btn_imprimir:hover{
+     
+       color: white;
+    border-radius: 20px;
+    width: 100px;
+    background: linear-gradient(360deg, #595757, #000000); 
+    }
+    .btn_voltar{
+         
+           margin-left: 6%;
+      color: white;
+    border-radius: 20px;
+    width: 100px;
+    background: linear-gradient(360deg, #8b8686, #1a1a1a); 
+        
+    }
+    
+    .form{
+            width: 65%;
+        text-align: center;
+    }
+    
+    .btn_voltar:hover{
+               margin-left: 6%;
+        color: white;
+    border-radius: 20px;
+    width: 100px;
+      background: linear-gradient(360deg, #595757, #000000);
+    }
+    
+    
+     .btn_buscar{
+       color: white;
+    border-radius: 20px;
+    width: 100px;
+    background: linear-gradient(360deg, #8b8686, #1a1a1a); 
+    }
+
+    .btn_buscar:hover{
+       color: white;
+    border-radius: 20px;
+    width: 100px;
+    background: linear-gradient(360deg, #595757, #000000);
+    }
+
+     .radius_campos{
+        border-radius: 15px;
+    }
+
+     .azul{
+         background: black;
+         border-radius: 10px;
+        color: #77bcef;
+         font-weight: bold;
+    }
+    .amarelo{
+         background: black;
+         border-radius: 10px;
+        color: #e3e747;
+        font-weight: bold;
+    }
+.em_processo{
+
+border-radius: 10px;
+color: orange;
+font-weight: bold;
+}
+    
+.canceladas{
+
+border-radius: 10px;
+color: red;
+font-weight: bold;
+}
+    
+    .concluidas{
+        
+         border-radius: 10px;
+       color: limegreen;
+        font-weight: bold;
+        
+    }
+  
+    
+.laranja{
+background: black;
+border-radius: 5px;
+color: orange;
+font-weight: bold;
+}
+    
+    .vermelho{
+         background: black;
+         border-radius: 5px;
+       color: red;
+        font-weight: bold;
+    }
+    
+    .verde{
+         background: black;
+      
+         border-radius: 5px;
+       color: limegreen;
+        font-weight: bold;
+        
+    }
+    
+    .azul_claro{
+         background: black;
+         border-radius: 10px;
+       color: #00D3FF;
+        font-weight: bold;
+    }
+ 
+    
+    .tabela{
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+ 
+    .impressao{
+        display: none;
+    }
+    
+    .header_fixo{
+            display: flex;
+        width: 100%;
+        
+            margin-top: 1%;
+    }
+    
+    .campos{
+        font-weight: bold;
+    }
+    
+    .campos_imp{
+       font-size: 10px; 
+    }
+    
+ 
+.fundo_header_fixo{
+ckground: linear-gradient(360deg, #8b8686, #1a1a1a);
+padding-left: 1%;
+padding-right: 1%;
+border-radius: 15px;
+}
+
+    
+.mostly-customized-scrollbar {
+display: block;
+overflow: auto;
+height: 2em;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+background-color: none;
+background: #dedee3;
+border-radius: 10px;
+}
+          
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+/* background: #161b5b; */
+background-image: linear-gradient(360deg, #0d0ee9, #4a458f);
+border-radius: 20px;
+}
+        
+    
+.span_des_estoque {
+    width: 11%;
+}
+
+.span_cod_produto {
+    width: 11%;
+}
+
+.span_desc_produto {
+    width: 20%;
+}
+
+.span_qtd_estoque {
+    width: 7%;
+}
+
+.span_est_min {
+    width: 8%;
+}
+.span_est_max {
+    width: 8%;
+}
+.span_situacao_produto {
+    width: 11%;
+}
+
+.span_valor_medio {
+    width: 12%;
+}
+.span_valor_total_item {
+    width: 12%;
+}
+    
+.td_des_estoque {
+    width: 11%;
+}
+
+.td_cod_produto {
+    width: 11%;
+}
+
+.td_desc_produto {
+    width: 20%;
+}
+
+.td_est_min{
+  width: 8%;
+}
+
+
+.td_est_max{
+ width: 8%;
+}
+
+.td_situacao_produto{
+   width: 11%;
+}
+
+.td_valor_medio {
+  width: 12%;
+}
+
+.td_qtd_estoque {
+   width: 7%;
+}
+
+.td_valor_total_item {
+   width: 12%;
+}
+    svg.bi.bi-printer-fill{
+    width: 35px;
+    height: 40px;
+    margin-left: 2%;
+    }
+    
+    .novo_imprimir{
+    background: none;
+    color: white;
+    /*  width: 30px;
+    height: 33px;*/       
+    }
+    
